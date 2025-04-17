@@ -1,0 +1,18 @@
+.logotitle {
+    text-align: center;
+    font-weight: 600;
+    width: 250px;
+    position: relative;
+    right: 0px;
+}
+
+.logotitle h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #0b5c2c;
+}
+
+#navbar {
+    position: relative;
+    left: 250px;
+}
