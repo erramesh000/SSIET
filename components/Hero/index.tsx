@@ -16,19 +16,14 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🔥 Solid - A Complete SaaS Web Template
+                🔥 Swami Sarvanand Group of Institutes
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Free Next.js Template for {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  SaaS
-                </span>
+                Campus Information
+
               </h1>
               <p>
-                Solid Pro - Packed with all the key integrations you need for
-                swift SaaS startup launch, including - Auth, Database, Sanity
-                Blog, Essential Components, Pages and More. Built-winth -
-                Next.js 13, React 18 and TypeScript.
+                Our campus at SSGI is more than just a place to study – it’s a vibrant community where learning, growth, and unforgettable memories come together. Designed to inspire and support students in every aspect of college life, our campus offers a perfect blend of academic excellence and student-friendly facilities
               </p>
 
               <div className="mt-10">

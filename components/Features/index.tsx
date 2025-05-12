@@ -13,11 +13,9 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOLID FEATURES",
-              subtitle: "Core Features of Solid",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              title: "Our Flagship ",
+              subtitle: "Courses",
+              description: `At Swami Sarvanand Group of Institutes, we take pride in offering our premier courses, designed to equip students with the skills, knowledge, and experience needed to excel in today’s competitive world.`,
             }}
           />
           {/* <!-- Section Title End --> */}
