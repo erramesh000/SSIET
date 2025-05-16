@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
+import "./index.css";
 const Footer = () => {
   return (
     <>
@@ -45,8 +45,8 @@ const Footer = () => {
                   />
                 </a>
 
-                <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="mb-10 mt-5 footer" >
+                  At SSGI, we are committed to academic excellence, holistic development, and shaping the leaders of tomorrow. Established in 1999, our institution has been a trusted name in education, offering a vibrant learning environment that fosters innovation, creativity, and growth.
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
