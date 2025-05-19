@@ -4,4 +4,5 @@ export type Feature = {
   title: string;
   subtitle: string;
   description: string;
+  linkk: string;
 };
