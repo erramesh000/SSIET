@@ -6,6 +6,7 @@ import About from "@/components/About";
 import FeaturesTab from "@/components/FeaturesTab";
 import FunFact from "@/components/FunFact";
 import Integration from "@/components/Integration";
+import Courses from "@/components/Courses";
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
@@ -26,6 +27,7 @@ export default function Home() {
       <Hero />
       <Brands />
       <Feature />
+      <Courses />
       <About />
       <FeaturesTab />
       <FunFact />
