@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import "./index.css"
 
 const SingleFeature = ({ coursesData }: { coursesData: Courses }) => {
-  const { icon, title, subtitle, description } = coursesData;
+  const { icon, title, subtitle, description, linkk } = coursesData;
 
   return (
     <>

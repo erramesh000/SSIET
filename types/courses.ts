@@ -12,4 +12,5 @@ export type Courses = {
   title: string;
   subtitle: string;
   description: string;
+  linkk: string;
 };
