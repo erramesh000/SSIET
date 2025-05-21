@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import coursesData from "./coursesData";
+import { coursesData, coursesDataM } from "./coursesData";
 import SingleFeature from "./SingleFeature";
 import SectionHeader from "../Common/SectionHeader";
 
@@ -32,6 +32,28 @@ const Courses = () => {
       </section>
 
       {/* <!-- ===== Features End ===== --> */}
+      <section id="courses" className="py-0 lg:py-0 xl:py-0">
+        <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+          {/* <!-- Section Title Start --> */}
+          <SectionHeader
+            headerInfo={{
+              title: "Management Department and Hotel management",
+              subtitle: "Courses",
+              description: ``,
+            }}
+          />
+          {/* <!-- Section Title End --> */}
+
+          <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-3 xl:mt-20 xl:gap-12.5">
+            {/* <!-- Features item Start --> */}
+
+            {coursesDataM.map((courses, key) => (
+              <SingleFeature coursesData={courses} key={key} />
+            ))}
+            {/* <!-- Features item End --> */}
+          </div>
+        </div>
+      </section>
     </>
   );
 };
