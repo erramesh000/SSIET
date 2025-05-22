@@ -53,11 +53,12 @@ const Footer = () => {
                   contact
                 </p>
                 <a
-                  href="#"
+                  href="mailto:directorssgi@gmail.com"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
-                </a>
+                  directorssgi@gmail.com
+                </a><br></br>
+                <a href="tel:+918558831009" className="text-itemtitle font-medium text-black dark:text-white">8558831009</a>
               </motion.div>
 
               <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
