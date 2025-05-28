@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Swami Sarvanand Group of Institutes",
 
   // other metadata
-  description: "This is Home for Solid Pro"
+  description: "At Swami Sarvanand Group of Institutes, we take pride in offering our premier courses, designed to equip students with the skills, knowledge, and experience needed to excel in today’s competitive world."
 };
 
 export default function Home() {
