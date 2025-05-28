@@ -3,8 +3,8 @@ export default function Head() {
     <>
       <title> Swami Sarvanand Group of Institutes</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="Built with Next.js and TypeScript" />
-      <link rel="icon" href="/images/logo.ico" />
+      <meta name="description" content="Swami Sarvanand Group of Institutes" />
+      <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     </>
   );
 }
