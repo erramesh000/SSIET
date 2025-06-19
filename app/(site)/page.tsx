@@ -25,23 +25,23 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Home() {
-  return (
-    <main>
-      <Hero />
-      <Brands />
-      <Feature />
-      {/* <Courses /> */}
-      <About />
-      <FeaturesTab />
-      <FunFact />
-      <Integration />
-      <CTA />
-      <FAQ />
-      <Testimonial />
-      {/* <Pricing /> */}
-      <Contact />
-      {/* <Blog /> */}
-    </main>
-  );
-}
+// export default function Home() {
+//   return (
+//     <main>
+//       {/* <Hero />
+//       <Brands />
+//       <Feature /> */}
+//       {/* <Courses /> */}
+//       {/* <About />
+//       <FeaturesTab />
+//       <FunFact />
+//       <Integration />
+//       <CTA />
+//       <FAQ />
+//       <Testimonial /> */}
+//       {/* <Pricing /> */}
+//       {/* <Contact /> */}
+//       {/* <Blog /> */}
+//     </main>
+//   );
+// }
